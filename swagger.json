@@ -239,7 +239,7 @@
         }
       }
     },
-    "/ptr" : {
+    "/ptr/" : {
       "post" : {
         "tags" : [ "ptr" ],
         "summary" : "Create new PTR record",
@@ -502,10 +502,10 @@
         "responses" : {
           "200" : {
             "description" : "successful operation",
-            "schema": {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/Record"
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/Record"
               }
             }
           },
@@ -644,7 +644,7 @@
         }
       }
     },
-    "/tags" : {
+    "/tags/" : {
       "post" : {
         "tags" : [ "tags" ],
         "summary" : "Create new tag",
